@@ -50,7 +50,7 @@ class _SignUpState extends State<SignUp> {
         // Wrap the Column with SingleChildScrollView
         child: Center(
           child: Container(
-            height: 1100,
+            height: 1200,
             width: 500,
             decoration: BoxDecoration(
               gradient: LinearGradient(

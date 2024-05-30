@@ -259,6 +259,7 @@ class _ReturnVendorState extends State<ReturnVendor> {
                 ),
                 SizedBox(height: 10),
                 DropdownButtonFormField(
+                  isExpanded: true,
                   value: selectedOutlet,
                   items: outletOptions.map((String outlet) {
                     return DropdownMenuItem(

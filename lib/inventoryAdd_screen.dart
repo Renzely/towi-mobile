@@ -227,6 +227,7 @@ class _AddInventoryState extends State<AddInventory> {
                                   alignment: Alignment.centerRight,
                                   children: [
                                     DropdownButtonFormField<String>(
+                                      isExpanded: true,
                                       value: _selectedAccount,
                                       items: _branchList.map((branch) {
                                         return DropdownMenuItem<String>(
